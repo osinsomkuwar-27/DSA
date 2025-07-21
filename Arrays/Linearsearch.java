@@ -28,3 +28,14 @@ public class Linearsearch {
         }
     }
 }
+/*
+Time and Space Complexity Analysis:
+
+Time Complexity:
+- Best Case: O(1)       → Key is at the first index.
+- Worst Case: O(n)      → Key is at the last index or not present.
+- Average Case: O(n)    → Key is somewhere in the middle.
+
+Space Complexity:
+- O(1)                  → Constant space is used (no extra memory used).
+*/
