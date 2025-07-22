@@ -1,4 +1,3 @@
-
 public class Linearsearch {
     public static int linearsearch(int numbers[], int key) {
         
