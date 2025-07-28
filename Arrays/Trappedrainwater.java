@@ -41,14 +41,12 @@ public class Trappedrainwater {
 /*
 Time and Space Complexity Analysis:
 
-Time Complexity:
-- O(n)
+Time Complexity:- O(n)
   → One pass to fill `leftMax[]` → O(n)
   → One pass to fill `rightMax[]` → O(n)
   → One pass to calculate total water → O(n)
   → Total = O(n + n + n) = O(n)
 
-Space Complexity:
-- O(n)
+Space Complexity:- O(n)
   → Extra space used for `leftMax[]` and `rightMax[]` arrays, each of size n
 */
