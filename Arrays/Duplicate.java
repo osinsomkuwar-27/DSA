@@ -11,4 +11,13 @@ public class Duplicate{
         }
         return false; // No duplicates found
     }
+    public static void main(String[] args) {
+        int arr[] = {1, 2, 3, 4, 5,};
+        boolean result = duplicatenumber(arr);  
+        if(result){
+            System.out.println("Duplicate found");
+        } else {
+            System.out.println("No duplicates found");
+        }
+    }
 }
