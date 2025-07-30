@@ -21,3 +21,4 @@ public class Duplicate{
         }
     }
 }
+//better code is written with hashing.. with tc O(n)//
