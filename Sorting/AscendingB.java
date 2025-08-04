@@ -1,4 +1,4 @@
-public class Bubblesort {
+public class AscendingB {
     public static void bubbleSort(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = 0; j < arr.length - i - 1; j++) {
@@ -24,6 +24,16 @@ public class Bubblesort {
         bubbleSort(arr);
         System.out.println("Sorted array:");
         printArray(arr);
-        
     }
 }
+/*
+Time and Space Complexity Analysis:
+
+Time Complexity:
+- Best Case:    O(n)     → Array is already sorted; only one pass with no swaps.
+- Average Case: O(n^2)   → Nested loops compare and swap adjacent elements.
+- Worst Case:   O(n^2)   → Array is in reverse order; maximum comparisons and swaps.
+
+Space Complexity:
+- O(1)                  → Constant space is used; sorting is done in-place.
+*/
