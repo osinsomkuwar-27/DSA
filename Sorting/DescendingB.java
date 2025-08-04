@@ -20,7 +20,7 @@ public class DescendingB {
     }
 
     public static void main(String[] args) {
-        int[] arr = {64, 34, 25, 12, 22, 11, 90};
+        int[] arr = {3, 6, 2, 1, 8, 7, 4, 5, 3, 1};
         bubbleSort(arr);
         System.out.println("Sorted array:");
         printArray(arr);

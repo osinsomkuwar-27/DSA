@@ -24,7 +24,7 @@ public class DescendingS{
     }
 
     public static void main(String[] args) {
-        int[] arr = {64, 25, 12, 22, 11};
+        int[] arr = {3, 6, 2, 1, 8, 7, 4, 5, 3, 1};
         SelectionSort(arr);
         System.out.println("Sorted array:");
         printArray(arr);
